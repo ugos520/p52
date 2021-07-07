@@ -1,0 +1,96 @@
+H1{
+    color:yellowgreen;
+
+}
+
+
+
+.menu{
+    display:flex;
+    justify-content:space-between; 
+    background-color: #000000;
+    padding:20px;
+    font-size:20px;
+    font-family: sans-serif;
+    font-weight:400;
+    color:#ffffff;
+}
+
+
+body{
+    margin:0px;
+    background-color:#c4e7ff;
+   
+}
+
+
+
+.bodyimg{
+    position:relative;
+
+    
+}
+
+.bodyimg h3{
+    font-size:20px;
+    font-family: fantasy;
+    font-weight:400;
+    color:#9644f5;
+    position:absolute;
+    top:67%;
+    left:34%;
+    transform:translate(-50%,-50%);
+}
+
+.bodyimg p{
+    color:#3245b1;
+    font-size: 34px;
+    font-family:fantasy;
+    position:relative;
+    top:90%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.grid{
+display:flex;
+flex-wrap: wrap;
+margin: 30px;
+border:2px solid #000000;
+border-radius: 50px;
+float:left;
+max-width: 500px;
+}
+
+.origami{
+border-radius: 20px;
+background-color: #ffffff;
+padding: 30px;
+margin: 25px;
+width:310px;
+font-family: fantasy;
+color:#00008b;
+box-shadow: 5px -5px;
+}
+
+.origami:hover{
+transform:scale(1.07,1.07);
+}
+
+a:link{
+    color:#ffffff ;
+}
+
+a:link:hover{
+color:#3a77fa;
+}
+
+
+
+img:hover{
+    transform:scale(1.07,1.07);
+}
+
+a:visited{
+    color:#3afaca;
+}
